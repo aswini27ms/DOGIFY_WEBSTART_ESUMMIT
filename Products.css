@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 20px;
+}
+
+#breed-select {
+    padding: 8px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.products-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product-card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 200px;
+}
+
+.product-card img {
+    width: 150px;
+    height: 150px; 
+    object-fit: cover; 
+    border-radius: 8px; 
+}
+
+
+.add-to-cart {
+    background-color: #f440bb;
+    color: white;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.add-to-cart:hover {
+    background-color: #f440bb;
+}
+
+.cart {
+    margin-top: 30px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.cart-items {
+    list-style: none;
+    padding: 0;
+}
+
+.cart-items li {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+.remove-item {
+    cursor: pointer;
+    color: red;
+    font-size: 1.2em;
+}
+
+.remove-item:hover {
+    color: darkred;
+}
+
+.checkout-button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: var(--nav-color);
+    color: var(--text-color-light);
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.checkout-button:hover {
+    background-color: #3658b3; 
+    transform: scale(1.05); 
+}
+
+
+.footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    top: 92%;
+    height: 1.9cm;
+    padding: 15px 20px;
+    position: fixed;
+    width: 100%;
+    left: 0%;
+    font-size: 0.9em;
+    box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  .footer-content a {
+    color: #f440bb;
+    text-decoration: none;
+    margin: 0 5px;
+  }
+  
+  .footer-content a:hover {
+    text-shadow: 0px 0px 5px #f440bb, 0px 0px 10px #f440bb;
+  }

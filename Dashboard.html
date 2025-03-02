@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog Breed Dashboard</title>
+    <link rel="stylesheet" href="Dashboard.css">
+    <link rel="stylesheet" href="Home.css">
+
+</head>
+<body>
+    <nav>
+        <div class="nav-bar">
+            <i class='bx bx-menu sidebarOpen'></i>
+            
+            <span class="logo navLogo">
+                <a href="Home.html">
+                    <img src="/Images/1s.png" alt="Dogify Logo" class="nav-logo-img">
+                    DOGIFY
+                </a>
+            </span>
+    
+            <div class="menu">
+                <div class="logo-toggle">
+                    <span class="logo">
+                        <a href="Home.html">
+                            <img src="/Images/1s.png" alt="Dogify Logo" class="nav-logo-img">
+                            DOGIFY
+                        </a>
+                    </span>
+                    <i class='bx bx-x siderbarClose'></i>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="Products.html">Products</a></li>
+                    <li><a href="Service.html">Services</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                    <li><a href="Dashboard.html">Dashboard</a></li>
+                    <li><a href="Signin.html">SignIn</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <br><br><br><br><br>
+
+    <div class="container">
+        <h1>Dog Breed Dashboard</h1>
+
+        <label for="imageUpload" class="upload-label">Upload Dog Image:</label>
+        <input type="file" id="imageUpload" accept="image/*">
+
+        <div class="preview">
+            <img id="previewImage" src="" alt="Uploaded Image">
+            <div id="breedDetails">
+                <h2 id="breedName"></h2>
+                <p id="breedDescription"></p>
+            </div>
+        </div>
+    </div>
+    <br><br><br><br><br>
+    <footer class="footer">
+        <div class="footer-content">
+          <p>&copy; 2025 Dogify. All Rights Reserved.</p>
+          <p>
+            Follow us on: 
+            <a href="https://facebook.com" target="_blank">Facebook</a> | 
+            <a href="https://twitter.com" target="_blank">Twitter</a> | 
+            <a href="https://instagram.com" target="_blank">Instagram</a>
+          </p>
+        </div>
+      </footer>
+
+    <script src="Dashboard.js"></script>
+</body>
+</html>
